@@ -8,6 +8,7 @@ Run twice daily (08:00 and 20:00 America/Vancouver). You are scanning for hackat
 - https://mlh.io/seasons/2026/events and /2027/events — filter British Columbia
 - Known recurring events' own sites: nwHacks (UBC), StormHacks (SFU), HackCamp (UBC), cmd-f, Hack the North is NOT local (skip unless asked), BCIT events page
 - Eventbrite: search "hackathon" in Vancouver, BC
+- General web sweep (catches events not on the platforms above): WebSearch for "hackathon Vancouver <current year>", "hackathon Vancouver <next 3 months>", "high school hackathon Vancouver BC", "hackathon UBC OR SFU OR BCIT OR Surrey OR Burnaby". Follow up any hit that looks like a real Metro Van event with a direct fetch of its page before reporting it.
 
 ## Scope rules
 - Metro Vancouver, in-person (Vancouver, Burnaby, Surrey, Richmond, UBC, SFU, BCIT)
