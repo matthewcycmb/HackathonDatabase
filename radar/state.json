@@ -25,15 +25,26 @@
     "nwhacks-2027": {
       "name": "nwHacks 2027",
       "url": "https://nwhacks.io/",
-      "dates": "January 2027 (exact dates TBC)",
-      "venue": "UBC",
+      "dates": "January 16-17, 2027",
+      "venue": "UBC Life Sciences Institute",
       "reg_deadline": null,
-      "eligibility": "ELIGIBILITY UNCLEAR - past editions covered as open to students of all ages (Ubyssey); verify",
+      "eligibility": "ELIGIBILITY UNCLEAR - site says 'Everyone is welcome at nwHacks' with no explicit high-school policy; applications not open yet (interest form only at https://forms.gle/731hXWXsFFAb7wQo8); verify",
+      "first_seen": "2026-08-15",
+      "last_status": "announced",
+      "alerted": true
+    },
+    "hack-your-life-2026": {
+      "name": "Hack Your Life 2026",
+      "url": "https://hack-your-life.devpost.com/",
+      "dates": "2026 (exact dates TBC) - 24-hour hackathon",
+      "venue": "BCIT Burnaby Campus",
+      "reg_deadline": null,
+      "eligibility": "HS-OK - Devpost describes it as a hackathon for high school students",
       "first_seen": "2026-08-15",
       "last_status": "announced",
       "alerted": true
     }
   },
-  "last_scan": "2026-08-15T01:07:36Z",
+  "last_scan": "2026-08-15T02:36:14Z",
   "last_heartbeat": null
 }
