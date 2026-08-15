@@ -41,7 +41,7 @@
       "reg_deadline": null,
       "eligibility": "HS-OK - Devpost describes it as a hackathon for high school students",
       "first_seen": "2026-08-15",
-      "last_status": "announced",
+      "last_status": "ended - user attended, do not alert again",
       "alerted": true
     }
   },
