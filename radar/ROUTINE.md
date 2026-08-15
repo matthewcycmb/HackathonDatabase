@@ -13,18 +13,18 @@ Run twice daily (08:00 and 20:00 America/Vancouver). You are scanning for hackat
 - Metro Vancouver, in-person (Vancouver, Burnaby, Surrey, Richmond, UBC, SFU, BCIT)
 - Skip online-only and non-BC events
 - For each event capture: name, dates, venue, registration URL, registration open/close, eligibility
-- Eligibility flag: ✅ high-schoolers explicitly allowed · ⚠️ post-secondary only · ❓ unclear (say what the page said)
+- Eligibility flag (plain text, never emoji): "HS-OK" high-schoolers explicitly allowed · "POST-SEC ONLY" · "ELIGIBILITY UNCLEAR" (say what the page said)
 
 ## State + alert policy
 State file: `radar/state.json` in this repo, keyed `"<event-slug>-<year>"` with `{name, url, dates, reg_deadline, eligibility, first_seen, last_status, alerted}` fields.
 
 Send a Telegram message ONLY when:
-1. An event key is new since last scan → "🆕 New hackathon: …"
-2. Registration opened since last scan → "🟢 Registration open: …"
-3. A registration deadline is <7 days away and no countdown alert was sent yet → "⏰ 5 days left: …"
-4. It is Sunday and no heartbeat was sent this week → "📡 Weekly radar: N tracked events" + one-line list
+1. An event key is new since last scan → "NEW: <name> — …"
+2. Registration opened since last scan → "REGISTRATION OPEN: <name> — …"
+3. A registration deadline is <7 days away and no countdown alert was sent yet → "DEADLINE: <name> — 5 days left …"
+4. It is Sunday and no heartbeat was sent this week → "WEEKLY RADAR: N tracked events" + one-line list
 
-Otherwise send nothing. Update `state.json` and commit+push ("radar: scan YYYY-MM-DD HH:MM") every run, even silent ones.
+Otherwise send nothing. Messages must contain NO emojis — plain text with the uppercase prefixes above. Update `state.json` and commit+push ("radar: scan YYYY-MM-DD HH:MM") every run, even silent ones.
 
 ## Telegram send
 ```
