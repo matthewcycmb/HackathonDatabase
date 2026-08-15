@@ -1,5 +1,39 @@
 {
-  "events": {},
-  "last_scan": null,
+  "events": {
+    "stormhacks-2026": {
+      "name": "StormHacks 2026",
+      "url": "https://stormhacks.com/",
+      "dates": "Oct 3-4, 2026",
+      "venue": "SFU Burnaby Campus",
+      "reg_deadline": null,
+      "eligibility": "ELIGIBILITY UNCLEAR - no explicit high-school policy found via search; organized by SFU Surge",
+      "first_seen": "2026-08-15",
+      "last_status": "announced",
+      "alerted": true
+    },
+    "hackcamp-2026": {
+      "name": "HackCamp 2026",
+      "url": "https://hackcamp.nwplus.io/",
+      "dates": "November 2026 (exact dates TBC)",
+      "venue": "UBC",
+      "reg_deadline": null,
+      "eligibility": "HS-OK likely - nwPlus beginner-focused event, seed scan reported high schoolers welcome; verify on site when registration opens",
+      "first_seen": "2026-08-15",
+      "last_status": "announced",
+      "alerted": true
+    },
+    "nwhacks-2027": {
+      "name": "nwHacks 2027",
+      "url": "https://nwhacks.io/",
+      "dates": "January 2027 (exact dates TBC)",
+      "venue": "UBC",
+      "reg_deadline": null,
+      "eligibility": "ELIGIBILITY UNCLEAR - past editions covered as open to students of all ages (Ubyssey); verify",
+      "first_seen": "2026-08-15",
+      "last_status": "announced",
+      "alerted": true
+    }
+  },
+  "last_scan": "2026-08-15T01:07:36Z",
   "last_heartbeat": null
 }
